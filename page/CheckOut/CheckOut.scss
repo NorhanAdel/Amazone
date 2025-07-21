@@ -1,0 +1,36 @@
+.checkout-page {
+  padding: 20px;
+  background-color: #f3f3f3;
+  font-family: Arial, sans-serif;
+
+  .checkout-container {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #111;
+  }
+  .place-order-btn {
+  width: 100%;
+  background-color: #ffa41c;
+  color: #111;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    background-color: #ff8c00;
+  }
+}
+
+}
